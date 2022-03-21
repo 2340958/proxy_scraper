@@ -17,4 +17,4 @@ jobs:
         with:
           file-path: proxies.txt
           commit-msg: Update proxies
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.BUILD_ENV }}
