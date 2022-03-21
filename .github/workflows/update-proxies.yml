@@ -2,7 +2,7 @@ name: Update File
 
 on:
   schedule:
-  - cron: "05,35 * * * *"
+  - cron: "05,55 * * * *"
   push:
     branches: [ main ]
   pull_request:
