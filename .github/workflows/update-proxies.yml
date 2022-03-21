@@ -3,10 +3,8 @@ name: Update File
 on:
   schedule:
   - cron: "05,55 * * * *"
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+  #push:
+    #branches: [ main ]
 
 jobs:
   update-file:
